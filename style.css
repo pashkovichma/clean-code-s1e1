@@ -74,7 +74,8 @@ button:hover {
 }
 
 /* Heading */
-h3,
+.todo-item__title,
+.completed-item__title,
 label[for="new-task"] {
   color: #333;
   font-weight: 700;
