@@ -58,7 +58,7 @@
 }
 
 .input-text,
-.input-checkbox,
+.task-item__input-checkbox,
 .btn {
   outline: none;
 }
@@ -113,7 +113,7 @@
   margin: 0 0 20px;
 }
 
-.add-item__wrapper_input {
+.add-item__input {
   width: 318px;
 }
 
@@ -127,14 +127,14 @@
   align-items: center;
 }
 
-.input-checkbox,
+.task-item__input-checkbox,
 .task-item__label,
 .input-text
 .btn {
   vertical-align: middle;
 }
 
-.input-checkbox {
+.task-item__input-checkbox {
   margin: 0 10px;
 }
 
@@ -149,13 +149,13 @@
   width: 226px;
 }
 
-.btn.delete .delete__img {
+.btn.task-item__delete .delete__img {
   height: 2em;
   transform: rotatez(45deg);
   transition: transform 200ms ease-in;
 }
 
-.btn.delete .delete__img:hover {
+.btn.task-item__delete .delete__img:hover {
   transform: rotatez(0);
 }
 
